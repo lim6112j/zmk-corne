@@ -27,7 +27,7 @@
             bindings = <&kp>, <&kp>;
         };
     };
-
+/*
     combos {
         compatible = "zmk,combos";
 
@@ -76,7 +76,7 @@
             key-positions = <30 10>;
         };
     };
-
+*/
     keymap {
         compatible = "zmk,keymap";
 
