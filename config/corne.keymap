@@ -113,7 +113,7 @@
         arrow_layer {
             label = "3";
             bindings = <
-&none  &none           &kp UP_ARROW    &none      &sys_reset  &none    &none  &kt NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none                    &none
+&none  &none           &kp UP_ARROW    &none      &none       &none    &none  &kt NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none                    &none
 &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none       &none    &none  &kt NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kt NUMBER_0             &none
 &none  &none           &none           &none      &none       &none    &none  &kt NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt BACKSPACE BACKSPACE  &none
                                        &none      &none       &none    &none  &none         &none
