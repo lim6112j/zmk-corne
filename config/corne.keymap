@@ -8,8 +8,10 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/outputs.h>
+
 #define DEFAULT_L 0
 #define SYMBOLS_L 1
 #define ARROWS_L  2
@@ -27,7 +29,8 @@
             bindings = <&kp>, <&kp>;
         };
     };
-/*
+
+    /*
     combos {
         compatible = "zmk,combos";
 
@@ -77,6 +80,7 @@
         };
     };
 */
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -96,7 +100,7 @@
 &none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6          &kp N7          &kp N8        &kp N9           &kp N0  &none
 &none  &none   &none   &none   &none   &none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none   &none
 &none  &none   &none   &none   &none   &none     &none           &msc MOVE_DOWN  &msc MOVE_UP  &none            &none   &none
-                       &none   &none   &none     &none           &none           &none
+                       &none   &none   &none     &mkp LCLK       &mkp RCLK       &none
             >;
         };
 
@@ -113,10 +117,10 @@
         arrow_layer {
             label = "3";
             bindings = <
-&none  &none           &kp UP_ARROW    &none      &none       &none    &none  &kt NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none                    &none
-&none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none       &none    &none  &kt NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kt NUMBER_0             &none
-&none  &none           &none           &none      &none       &none    &none  &kt NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt BACKSPACE BACKSPACE  &none
-                                       &none      &none       &none    &none  &none         &none
+&none  &none           &kp UP_ARROW    &none      &none  &none    &none  &kt NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none                    &none
+&none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none  &none    &none  &kt NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kt NUMBER_0             &none
+&none  &none           &none           &none      &none  &none    &none  &kt NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt BACKSPACE BACKSPACE  &none
+                                       &none      &none  &none    &none  &none         &none
             >;
         };
 
