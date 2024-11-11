@@ -16,7 +16,7 @@
 #define SYMBOLS_L 1
 #define ARROWS_L  2
 #define NUMBERS_L 3
-#define U_MOUSE_SCROLL_MAX 100                    /* <--- New max speed setting (default: 10) */
+#define U_MOUSE_SCROLL_MAX 20                    /* <--- New max speed setting (default: 10) */
 
 #undef SCROLL_UP
 #undef SCROLL_DOWN
