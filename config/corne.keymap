@@ -136,7 +136,7 @@
             bindings = <
 &kp ESC  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(PERIOD)  &kp PLUS     &kp LS(KP_MULTIPLY)   &kp LS(DOLLAR)  &kp COLON       &kp PIPE          &kp LS(GRAVE)  &none
 &none    &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_0    &kp MINUS    &kp KP_DIVIDE         &kp HASH        &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp SQT        &none
-&none    &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp BACKSPACE   &kp EQUAL    &kp NON_US_BACKSLASH  &kp AMPERSAND   &kp LESS_THAN   &kp GREATER_THAN  &kp SLASH      &none
+&none    &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp BACKSPACE   &kp EQUAL    &kp BACKSLASH         &kp AMPERSAND   &kp LESS_THAN   &kp GREATER_THAN  &kp SLASH      &none
                                              &none             &none           &none        &none                 &none           &none
             >;
         };
