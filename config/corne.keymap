@@ -127,10 +127,10 @@
         number_layer {
             label = "1";
             bindings = <
-&none  &kp N1  &kp N2  &kp N3  &kp N4    &kp N5  &kp N6          &kp N7                                 &kp N8                                &kp N9           &kp N0  &none
-&none  &none   &none   &none   &kp CAPS  &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN                         &mmv MOVE_UP                          &mmv MOVE_RIGHT  &none   &none
-&none  &none   &none   &none   &none     &none   &none           &msc SCROLL_VERT(-U_MOUSE_SCROLL_MAX)  &msc SCROLL_VERT(U_MOUSE_SCROLL_MAX)  &none            &none   &none
-                       &none   &none     &none   &mkp LCLK       &mkp RCLK                              &none
+&none  &kp N1  &kp N2  &kp N3  &kp N4    &kp N5  &kp N6                                &kp N7                                 &kp N8                                &kp N9                               &kp N0  &none
+&none  &none   &none   &none   &kp CAPS  &none   &mmv MOVE_LEFT                        &mmv MOVE_DOWN                         &mmv MOVE_UP                          &mmv MOVE_RIGHT                      &none   &none
+&none  &none   &none   &none   &none     &none   &msc SCROLL_HOR(-U_MOUSE_SCROLL_MAX)  &msc SCROLL_VERT(-U_MOUSE_SCROLL_MAX)  &msc SCROLL_VERT(U_MOUSE_SCROLL_MAX)  &msc SCROLL_HOR(U_MOUSE_SCROLL_MAX)  &none   &none
+                       &none   &none     &none   &mkp LCLK                             &mkp RCLK                              &none
             >;
         };
 
@@ -147,10 +147,10 @@
         arrow_layer {
             label = "3";
             bindings = <
-&none  &none           &kp UP_ARROW    &none      &none  &none    &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none                    &none
-&none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none  &none    &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0             &none
-&none  &none           &none           &none      &none  &none    &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt BACKSPACE BACKSPACE  &none
-                                       &none      &none  &none    &none  &none         &none
+&none  &none           &kp UP_ARROW    &none      &none  &none    &none       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none                    &none
+&none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none  &none    &none       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0             &none
+&none  &none           &none           &none      &none  &none    &kp LSHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt BACKSPACE BACKSPACE  &none
+                                       &none      &none  &none    &none       &none         &none
             >;
         };
 
