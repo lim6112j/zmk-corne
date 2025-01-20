@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/ftc
+      url-base: https://github.com/ftc/
     - name: m165437
       url-base: https://github.com/M165437
   projects:
